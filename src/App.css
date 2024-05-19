@@ -1,0 +1,89 @@
+.container{
+  /* text-align: center; */
+  margin-top: 0;
+  padding-top: 0;
+  width: 60%;
+  background-color: rgb(139, 232, 232);
+  margin: auto;
+  display: flex;
+  border-radius: 1rem;
+  min-height: 80vh;
+  
+}
+h3{
+  text-align: center;
+}
+.todo{
+  margin: auto;
+  /* margin-left: 60px; */
+  /* margin-left: 5rem; */
+  margin-top: 0;
+}
+.input{
+  height: 24px;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.show{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+button{
+  background-color: aqua;
+  margin: 4px;
+  color: white;
+  font-size: large;
+  border-radius: 1rem;
+  border: none;
+}
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.save{
+  font-size: 25px;
+  margin-bottom: 14px;
+}
+@media (max-width:705px) {
+  .container{
+    width: 90%;
+  }
+  .todo{
+    width: 350px;
+  }
+}
+@media (max-width:440px) {
+  .container{
+    width: 95%;
+  }
+  .todo{
+    /* width: 300px; */
+    width: 90%;
+  }
+}
+@media (max-width:350px) {
+  .todo{
+    width: 95%;
+  }
+  .save{
+    font-size: 20px;
+  }
+  .input{
+    height: 20px;
+    margin-right: 0;
+  }
+}
+@media (max-width:300px) {
+  .todo{
+    width: 95%;
+  }
+  .input{
+    width: 70%;
+  }
+  
+}
